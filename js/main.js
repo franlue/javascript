@@ -1,4 +1,6 @@
-let entrada = prompt("Ingresar un número");
-let iva = 1.21;
-let salida = "El valor total más IVA es igual a " + entrada * iva;
-alert(salida);
+let numero = prompt("Ingrese el código 234560");
+
+while(numero != 234560){
+    alert("Código incorrecto");
+    numero=prompt("Intente nuevamente con el código 234560 ");
+}
