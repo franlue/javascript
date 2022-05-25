@@ -1,6 +1,4 @@
 let numero = prompt("Bienvenido a Reiyspak, ingrese el número de la opción deseada\n Catálogo de productos [1] \n Comprar [2]");
-let op = 0;
-
 
 while ((numero !=1 )&&(numero != 2)){
     if (numero == ""){
