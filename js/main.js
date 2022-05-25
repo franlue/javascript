@@ -1,4 +1,5 @@
 let numero = prompt("Bienvenido a Reiyspak, ingrese el número de la opción deseada\n Catálogo de productos [1] \n Comprar [2]");
+let opcion = 0;
 
 while ((numero !=1 )&&(numero != 2)){
     if (numero == ""){
@@ -15,8 +16,12 @@ if(numero == 1) {
 
 } else if (numero == 2) {
 
-    alert("Comprar")
-    numero = prompt("Si desea volver al  menú principal ingrese [3]")
+    alert("Comprar \n Elija el producto que quiera comprar \n RIG DE MINERIA [A] \n PLACA DE VIDEO [B] \n FUENTE MODULAR [C] \n BASE DE ACERO INOXIDABLE [D]")
+    opcion = prompt("Elija la opción")
+    if (opcion == "A"){
+        alert("Elegiste la opción A")
+    }
+    opcion = prompt("Si desea volver al  menú principal ingrese [3]")
 
 } else {
 
@@ -31,4 +36,4 @@ while (numero == 3){
 
 }
 // No sé como hacer el código de manera que se pueda repetir el proceso.
-//Cuando el usuario ingrese "3" me gustaría que el código volviera a empezar.
+// Cuando el usuario ingrese "3" me gustaría que el código volviera a empezar.
