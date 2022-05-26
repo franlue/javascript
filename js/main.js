@@ -53,5 +53,3 @@ function redirigir(){
     }
 }
 redirigir();
-// No sé como hacer el código de manera que se pueda repetir el proceso.
-// Cuando el usuario ingrese "3" me gustaría que el código volviera a empezar.

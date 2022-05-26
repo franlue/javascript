@@ -19,5 +19,5 @@ function saludando(){
     console.log("Se ejecuta la función");
     prompt("¿Te gustó la función? \n ¿Si? \n ¿No?")
 }
-
+//Lamando la función
 saludando();
